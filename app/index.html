@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Hearth &amp; Ledger — a household budget planner for real families: plan the month, track every dollar, and watch savings goals grow. Works offline, data stays on your device.">
+<title>Hearth &amp; Ledger — Household Budget Planner</title>
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">&#8962;</span>
+      <span class="brand-text"><strong>Hearth &amp; Ledger</strong><small>Household budget planner</small></span>
+    </a>
+    <nav class="mainnav" aria-label="Main navigation">
+      <a href="#/" data-nav="dashboard">Dashboard</a>
+      <a href="#/planner" data-nav="planner">Budget Planner</a>
+      <a href="#/transactions" data-nav="transactions">Transactions</a>
+      <a href="#/goals" data-nav="goals">Savings Goals</a>
+      <a href="#/insights" data-nav="insights">Insights</a>
+    </nav>
+    <div class="month-picker">
+      <label for="monthSelect">Month</label>
+      <select id="monthSelect" aria-label="Budget month"></select>
+    </div>
+  </div>
+</header>
+<main id="app" class="wrap" aria-live="polite"></main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>Hearth &amp; Ledger</strong> — built for one household, the Marlowe family of four, to plan a month in about ten minutes. Your numbers never leave this browser: everything is saved in local storage on your own device.</p>
+    <p class="foot-links"><a href="#/">Dashboard</a> · <a href="#/planner">Budget Planner</a> · <a href="#/transactions">Transactions</a> · <a href="#/goals">Savings Goals</a> · <a href="#/insights">Insights</a> · <a href="#/insights">The 50/30/20 rule</a></p>
+    <p class="fineprint">Sample household data ships with the planner so you can explore it right away. Edit any figure, add your own transactions, and use “Reset sample data” on the Planner page to start over.</p>
+  </div>
+</footer>
+</body>
+</html>
